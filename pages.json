@@ -1,0 +1,63 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#ff3333",
+						"style": "default",
+						"contentdown": {
+							"caption": "下拉可刷新自定义文本"
+						},
+						"contentover": {
+							"caption": "释放可刷新自定义文本"
+						},
+						"contentrefresh": {
+							"caption": "正在刷新自定义文本"
+						}
+					}
+				}
+			}
+		},
+		{
+            "path" : "pages/watch/watch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "追剧",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+		{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/c1.png",
+			"selectedIconPath": "static/image/logo.png",
+			"text": "菜单1"
+		}, 
+		{
+			"pagePath": "pages/watch/watch",
+			"iconPath": "static/image/c2.png",
+			"selectedIconPath": "static/image/logo.png",
+			"text": "菜单22222"
+		}]
+	}
+}

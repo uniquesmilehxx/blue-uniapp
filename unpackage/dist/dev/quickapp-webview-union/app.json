@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/watch/watch"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/c1.png",
+        "selectedIconPath": "static/image/logo.png",
+        "text": "菜单1"
+      },
+      {
+        "pagePath": "pages/watch/watch",
+        "iconPath": "static/image/c2.png",
+        "selectedIconPath": "static/image/logo.png",
+        "text": "菜单22222"
+      }
+    ]
+  },
+  "package": "com.blue.demo",
+  "icon": "C:/Users/Netjoy/Pictures/creator-index-pipei.png",
+  "versionName": "1.0",
+  "versionCode": 100,
+  "minPlatformVersion": 1070,
+  "appType": "webapp",
+  "name": "uniapp-demo",
+  "usingComponents": {}
+}

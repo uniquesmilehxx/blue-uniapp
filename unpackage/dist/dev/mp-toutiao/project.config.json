@@ -1,0 +1,14 @@
+{
+    "setting": {
+        "minified": true,
+        "postcss": true,
+        "urlCheck": true
+    },
+    "appid": "tt30ab4616af95398601",
+    "projectname": "uniapp-demo",
+    "condition": {
+        "miniprogram": {
+            "current": -1
+        }
+    }
+}

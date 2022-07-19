@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "package": "com.blue.demo",
+  "icon": "C:/Users/Netjoy/Pictures/creator-index-pipei.png",
+  "versionName": "1.0",
+  "versionCode": 100,
+  "minPlatformVersion": 1070,
+  "appType": "webapp",
+  "name": "uniapp-demo",
+  "usingComponents": {}
+}

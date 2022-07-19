@@ -1,0 +1,1 @@
+<navigator tt:if="{{a}}" href="{{c}}" class="{{('uni-link') + ' ' + (d && 'uni-link--withline')}}" style="{{'color:' + e + ';' + ('font-size:' + f)}}" download="{{g}}"><slot>{{b}}</slot></navigator><text tt:else class="{{('uni-link') + ' ' + (i && 'uni-link--withline')}}" style="{{'color:' + j + ';' + ('font-size:' + k)}}" bindtap="{{l}}"><slot>{{h}}</slot></text>

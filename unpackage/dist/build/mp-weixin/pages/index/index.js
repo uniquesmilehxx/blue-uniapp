@@ -1,0 +1,1 @@
+"use strict";var e=require("../../common/vendor.js");const r={data:()=>({href:"https://uniapp.dcloud.io/component/README?id=uniui"}),methods:{}};if(!Array){e.resolveComponent("uni-link")()}Math;var t=e._export_sfc(r,[["render",function(r,t,n,o,i,a){return{a:e.p({href:i.href,text:i.href})}}]]);wx.createPage(t);
